@@ -309,6 +309,13 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: 'Rusty Nail',
+      artist: 'X JAPAN',
+      url: 'https://music.163.com/song/media/outer/url?id=22802937.mp3',
+      cover:
+        'http://p1.music.126.net/b0m0vOnCPJvvg3nab0SvoQ==/621224069714641.jpg'
+    },
+    {
       name: 'Старое кино',
       artist: 'Перемотка',
       url: 'https://music.163.com/song/media/outer/url?id=1488443783.mp3',
