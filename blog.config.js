@@ -316,6 +316,20 @@ const BLOG = {
         'http://p2.music.126.net/uQwTNeFjZJoXV1wqwlcJpw==/109951165402240127.jpg'
     },
     {
+      name: 'Louder Than Hell (Live in Hamburg)',
+      artist: 'Mono Inc.',
+      url: 'https://music.163.com/song/media/outer/url?id=2078531414.mp3',
+      cover:
+        'http://p2.music.126.net/mvbqxG3srq58O3c-3ucZBA==/109951168885879854.jpg'
+    },
+    {
+      name: 'R',
+      artist: 'Plum - Melodic Artist',
+      url: 'https://music.163.com/song/media/outer/url?id=1877154230.mp3',
+      cover:
+        'http://p2.music.126.net/N3NisIax0rV27ubaZ_5gdA==/109951166373118096.jpg'
+    },
+    {
       name: 'Bougainvillea',
       artist: '麻枝准 / やなぎなぎ',
       url: 'https://music.163.com/song/media/outer/url?id=2131049017.mp3',
