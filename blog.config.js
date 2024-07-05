@@ -37,7 +37,7 @@ const BLOG = {
   CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || '', // 你的telegram 地址 例如 https://t.me/tangly_1024
   CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || '', // 你的linkedIn 首页
   CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_INSTAGRAM || '', // 您的instagram地址
-  CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || '', // B站主页
+  CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bilibili.com/694600398', // B站主页
   CONTACT_YOUTUBE: process.env.NEXT_PUBLIC_CONTACT_YOUTUBE || '', // Youtube主页
   CONTACT_XIAOHONGSHU: process.env.NEXT_PUBLIC_CONTACT_XIAOHONGSHU || '', // 小红书主页
   CONTACT_ZHISHIXINGQIU: process.env.NEXT_PUBLIC_CONTACT_ZHISHIXINGQIU || '', // 知识星球
@@ -309,6 +309,27 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: 'Старое кино',
+      artist: 'Перемотка',
+      url: 'https://music.163.com/song/media/outer/url?id=1488443783.mp3',
+      cover:
+        'http://p2.music.126.net/uQwTNeFjZJoXV1wqwlcJpw==/109951165402240127.jpg'
+    },
+    {
+      name: 'Bougainvillea',
+      artist: '麻枝准 / やなぎなぎ',
+      url: 'https://music.163.com/song/media/outer/url?id=2131049017.mp3',
+      cover:
+        'http://p1.music.126.net/GvBu0hMi9XInKoz-PD9vxg==/109951169374969602.jpg'
+    },
+    {
+      name: 'Супермарио',
+      artist: 'Перемотка',
+      url: 'https://music.163.com/song/media/outer/url?id=1488443781.mp3',
+      cover:
+        'http://p2.music.126.net/uQwTNeFjZJoXV1wqwlcJpw==/109951165402240127.jpg'
+    },
+    {
       name: 'Flying high',
       artist: 'Flying high',
       url: 'https://music.163.com/song/media/outer/url?id=22774464.mp3',
@@ -321,6 +342,20 @@ const BLOG = {
       url: 'https://music.163.com/song/media/outer/url?id=2165563687.mp3',
       cover:
         'http://p2.music.126.net/2O576RWaBhwBB8l-4VLyOA==/109951169677472972.jpg'
+    },
+    {
+      name: 'Secret Mirage (M@STER VERSION)',
+      artist: '藤田茜 / 立花理香',
+      url: 'https://music.163.com/song/media/outer/url?id=1901958842.mp3',
+      cover:
+        'http://p2.music.126.net/g4sLKyKW1hi8-6Iz0nwLiQ==/109951166709993920.jpg'
+    },
+    {
+      name: 'Eugene',
+      artist: '77 Bombay Street',
+      url: 'https://music.163.com/song/media/outer/url?id=1860008313.mp3',
+      cover:
+        'http://p1.music.126.net/mfrwy3doo-Xec5wPKx1GfA==/109951166163821625.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
