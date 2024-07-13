@@ -309,13 +309,6 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: 'TELL ME',
-      artist: 'hide',
-      url: 'https://music.163.com/song/media/outer/url?id=22730552.mp3',
-      cover:
-        'http://p1.music.126.net/n39lEzpsx9YhIecRunIw0g==/109951168700027201.jpg'
-    },
-    {
       name: 'Rusty Nail',
       artist: 'X JAPAN',
       url: 'https://music.163.com/song/media/outer/url?id=22802937.mp3',
