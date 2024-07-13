@@ -309,6 +309,20 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: 'Crashed The Wedding 2.0',
+      artist: 'Busted / Neck Deep',
+      url: 'https://music.163.com/song/media/outer/url?id=2052011954.mp3',
+      cover:
+        'http://p2.music.126.net/Mm_AgTHI39SgJXSHWUeDzg==/109951168650264540.jpg'
+    },
+    {
+      name: 'Meet You There 2.0',
+      artist: 'Busted / Neck Deep',
+      url: 'https://music.163.com/song/media/outer/url?id=2040536272.mp3',
+      cover:
+        'http://p2.music.126.net/5s_dtUHJkZMA_lp6NURS4A==/109951168575034857.jpg'
+    },
+    {
       name: 'POISON日剧《麻辣教师GTO》主题曲',
       artist: '反町隆史',
       url: 'https://music.163.com/song/media/outer/url?id=1981814546.mp3',
