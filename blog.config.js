@@ -309,6 +309,34 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: 'POISON日剧《麻辣教师GTO》主题曲',
+      artist: '反町隆史',
+      url: 'https://music.163.com/song/media/outer/url?id=1981814546.mp3',
+      cover:
+        'http://p1.music.126.net/MlQQuHZyaCERG4IzbeS5ww==/109951167881679996.jpg'
+    },
+    {
+      name: '鲜烈之龙',
+      artist: '小池雅人',
+      url: 'https://music.163.com/song/media/outer/url?id=28186750.mp3',
+      cover:
+        'http://p1.music.126.net/mX8g3orYWwQTUUQfdN8YBQ==/109951163706057223.jpg'
+    },
+    {
+      name: 'Gotta Have You',
+      artist: 'The Weepies / Deb Talan / Steve Tannen',
+      url: 'https://music.163.com/song/media/outer/url?id=19572271.mp3',
+      cover:
+        'http://p1.music.126.net/EUF1CK9GOrtT0ykWrv5jkQ==/109951167031383017.jpg'
+    },
+    {
+      name: 'Liekkas',
+      artist: 'Sofia Jannok',
+      url: 'https://music.163.com/song/media/outer/url?id=3413895.mp3',
+      cover:
+        'http://p1.music.126.net/SL4r1PWw_380NOa9CLHt9g==/18666408906559853.jpg'
+    },
+    {
       name: 'Rusty Nail',
       artist: 'X JAPAN',
       url: 'https://music.163.com/song/media/outer/url?id=22802937.mp3',
@@ -379,7 +407,7 @@ const BLOG = {
         'http://p1.music.126.net/mfrwy3doo-Xec5wPKx1GfA==/109951166163821625.jpg'
     }
   ],
-  MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || true, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
+  MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
     process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'netease', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
   MUSIC_PLAYER_METING_ID:
