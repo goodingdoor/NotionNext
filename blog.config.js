@@ -309,6 +309,27 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: '世界の選択 - Freedom Paradise-',
+      artist: 'Stack',
+      url: 'https://music.163.com/song/media/outer/url?id=30870393.mp3',
+      cover:
+        'http://p2.music.126.net/TP3nQrCZN8aII9B7RqOzyw==/7898891534273763.jpg'
+    },
+    {
+      name: '秋姉妹のなく頃に in the autumn sky',
+      artist: 'ばんばんしー',
+      url: 'https://music.163.com/song/media/outer/url?id=691506.mp3',
+      cover:
+        'http://p1.music.126.net/W9q4aOQt-PLKNonVY01l2A==/836728348780675.jpg'
+    },
+    {
+      name: '二人の結晶-INNOCENCE',
+      artist: '暁Records/Stack',
+      url: 'https://music.163.com/song/media/outer/url?id=32166112.mp3',
+      cover:
+        'http://p1.music.126.net/ZE7Z9OnnP_hN2QluHXQ_1Q==/2898312652194277.jpg'
+    },
+    {
       name: 'Crashed The Wedding 2.0',
       artist: 'Busted / Neck Deep',
       url: 'https://music.163.com/song/media/outer/url?id=2052011954.mp3',
@@ -398,13 +419,6 @@ const BLOG = {
       url: 'https://music.163.com/song/media/outer/url?id=22774464.mp3',
       cover:
         'http://p1.music.126.net/Qn8sdSfLJZbWQKR-fHmkRQ==/803742999928360.jpg'
-    },
-    {
-      name: '再生',
-      artist: '阿良良木健 / 洛天依',
-      url: 'https://music.163.com/song/media/outer/url?id=2165563687.mp3',
-      cover:
-        'http://p2.music.126.net/2O576RWaBhwBB8l-4VLyOA==/109951169677472972.jpg'
     },
     {
       name: 'Secret Mirage (M@STER VERSION)',
