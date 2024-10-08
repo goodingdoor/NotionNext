@@ -309,6 +309,20 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: 'Trip -innocent of D-TV动画《High School D×D》片头曲',
+      artist: 'Larval Stage Planning',
+      url: 'https://music.163.com/song/media/outer/url?id=775072.mp3',
+      cover:
+        'http://p1.music.126.net/dAI_SvdIHJXy1vtOE_7eOw==/2270491511406039.jpg'
+    },
+    {
+      name: 'Moon & Sun (off vocal)',
+      artist: 'Xomu',
+      url: 'https://music.163.com/song/media/outer/url?id=2629465402.mp3',
+      cover:
+        'http://p1.music.126.net/xQJH1MfkGk3pWmaw2cQshw==/109951169980307320.jpg'
+    },
+    {
       name: '世界の選択 - Freedom Paradise-',
       artist: 'Stack',
       url: 'https://music.163.com/song/media/outer/url?id=30870393.mp3',
